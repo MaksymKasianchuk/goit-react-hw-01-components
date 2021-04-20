@@ -7,16 +7,10 @@ function randColor() {
     ${Math.random() * 256})`;
 }
 
-const Title = ({ title }) => {
-    if (title) {
-      return <h2 className={styles.title}>{title}</h2>;
-    }
-    else return false;
-};
 const Statistics = ({title, stats}) => {
     return (
         <section className={styles.statistics}>
-            <Title title = {title}/>
+              {title && <h3 className={styles.title}>{title}</h3>}
 
             <ul className={styles.statList}>
             {stats.map(element => (

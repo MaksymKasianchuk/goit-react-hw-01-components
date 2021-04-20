@@ -1,6 +1,6 @@
 import Profile from './social-profile/Social-profile';
 import Statistics from './statistics/Statistics';
-import FriendsList from './friend-list/Friends-list';
+import FriendsList from './friend-list/FriendsList';
 import TransactionHistory from './transaction-history/Transaction-history';
 import user from './social-profile/user.json';
 import statisticalData from './statistics/statistics-data.json';
