@@ -7,6 +7,7 @@ function randColor() {
     ${Math.random() * 256})`;
 }
 
+
 const Statistics = ({title, stats}) => {
     return (
         <section className={styles.statistics}>
